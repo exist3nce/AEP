@@ -10,3 +10,4 @@ function utils.tfind(haystack, needle)
 		end
 	end
 end
+return utils
