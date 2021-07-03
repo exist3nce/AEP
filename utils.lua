@@ -5,8 +5,8 @@ function utils.tfind(haystack, needle)
 			return true
 		else
 			if type(v) == "table" then
-				return utils.tfind(v, needle)
-			end
+                return utils.tfind(v, needle)
+            end
 		end
 	end
 end
